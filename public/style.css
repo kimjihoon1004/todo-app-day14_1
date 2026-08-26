@@ -1,0 +1,102 @@
+html {
+  background-color: #f5f6fa;
+  min-height: 100%;
+}
+
+body {
+  background-color: #ffffff;
+  color: #333333;
+  font-family: "Segoe UI", "Malgun Gothic", sans-serif;
+  max-width: 420px;
+  margin: 60px auto;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #0000ff;
+  text-align: center;
+}
+
+div {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px 12px;
+  border: 1px solid #cccccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #0000ff;
+}
+
+button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  background-color: #0000ff;
+  color: #ffffff;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0000cc;
+}
+
+ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ol li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 14px;
+  border-bottom: 1px solid #eeeeee;
+  font-size: 15px;
+}
+
+ol li:last-child {
+  border-bottom: none;
+}
+
+ol li .check-box {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  accent-color: #0000ff;
+}
+
+ol li span {
+  flex: 1;
+}
+
+ol li span.completed {
+  text-decoration: line-through;
+  color: #999999;
+}
+
+.edit-btn,
+.delete-btn {
+  padding: 4px 10px;
+  font-size: 13px;
+}
+
+.delete-btn {
+  background-color: #e74c3c;
+}
+
+.delete-btn:hover {
+  background-color: #c0392b;
+}
